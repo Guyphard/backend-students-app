@@ -7,6 +7,7 @@ import lombok.*;
 @Data
 @NoArgsConstructor @AllArgsConstructor @ToString @Builder
 public class Student {
+    //classe étudiant
     @Id
     private String id;
     @Column(unique = true)

@@ -17,6 +17,7 @@ public class Payment {
     private PaymentType type;
     private PaymentStatus status = PaymentStatus.CREATED;
     private String file;
+    //relation + to 1
     @ManyToOne
     private Student student;
 }
